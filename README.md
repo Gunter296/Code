@@ -4,10 +4,10 @@
 A game dodge bullet take inspiration from <https://sawblades.chinykian.com/>
 
 ## Control 🎮
--> : move left
-<- : move right
-SPACE : jump
-Mouse click: interact
+- -> : move left
+- <- : move right
+- SPACE : jump
+- Mouse click: interact
 
 ## Third party tools
 - <https://github.com/libsdl-org/SDL/releases/tag/prerelease-2.29.2>
