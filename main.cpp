@@ -30,6 +30,7 @@ int main(int argc, char* argv[])
 
     GameMap game_map;
     game_map.LoadMap("map.txt");
+    game_map.LoadTile(g.renderer);
 
     Character player;
 
@@ -122,9 +123,6 @@ int main(int argc, char* argv[])
                 logErrorAndExit("Can't create background because", SDL_GetError());
 
             }
-
-
-            game_map.LoadTile(g.renderer);
 
             player.load_object_image("photo\\penguin\\penguin_right_60_64.png", g.renderer);
             player.clips();
