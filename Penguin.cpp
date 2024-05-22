@@ -257,13 +257,13 @@ bool Character::checkPlayer(Map &map_data)
       {
           return false;
       }
-      if( (int)y_pos/TILE_SIZE == 7 &&( (int)x_pos/TILE_SIZE <=17 && (int)x_pos/TILE_SIZE >= 6) )
+      if( y_pos >= 511 &&( x_pos <835 && x_pos > 390) )
       {
           return false;
       }
       else return true;
     }
-    return false;
+    else return false;
 }
 
 
