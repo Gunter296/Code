@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1716410877 source:e:\sdlfirst\mygame\gamemap.cpp
+	"gameMap.h"
+
+1716371437 e:\sdlfirst\mygame\gamemap.h
+	"Graphic.h"
+	"LoadImage.h"
+
+1716410860 e:\sdlfirst\mygame\graphic.h
+	<SDL.h>
+	<iostream>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mouse.h>
+	<string>
+	<fstream>
+	<sstream>
+	<ctime>
+	<cstdlib>
+	<SDL_mixer.h>
+
+1716384093 e:\sdlfirst\mygame\loadimage.h
+	"Graphic.h"
+
+1716409639 source:e:\sdlfirst\mygame\graphic.cpp
+	"Graphic.h"
+
+1716051862 source:e:\sdlfirst\mygame\loadimage.cpp
+	"LoadImage.h"
+
+1716409544 source:e:\sdlfirst\mygame\menu.cpp
+	"Menu.h"
+
+1716409115 e:\sdlfirst\mygame\menu.h
+	"Graphic.h"
+	"LoadImage.h"
+
+1716410830 source:e:\sdlfirst\mygame\obstacle.cpp
+	"Obstacle.h"
+
+1716406409 e:\sdlfirst\mygame\obstacle.h
+	"Penguin.h"
+	"Timer.h"
+	"Graphic.h"
+
+1716408741 e:\sdlfirst\mygame\penguin.h
+	"Graphic.h"
+	"LoadImage.h"
+
+1716410535 e:\sdlfirst\mygame\timer.h
+	"Graphic.h"
+
+1716410737 source:e:\sdlfirst\mygame\penguin.cpp
+	"Penguin.h"
+
+1716401954 source:e:\sdlfirst\mygame\text.cpp
+	"Text.h"
+
+1716401985 e:\sdlfirst\mygame\text.h
+	"Graphic.h"
+
+1716393233 source:e:\sdlfirst\mygame\timer.cpp
+	"Timer.h"
+
