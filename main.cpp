@@ -85,7 +85,7 @@ int main(int argc, char* argv[])
                 menu.Score_board(g.renderer);
                 TextObj tes_text;
                 tes_text.setColor(61, 207, 212);
-                string s = "SCORE:";
+                string s = "SCORE: ";
                 stringstream ss;
                 int score = (int)time/30;
                 if(score < 10)
